@@ -22,12 +22,6 @@
         .navbar .logo {
 			height: 50px;
 		}
-		
-        @media (max-width: 767.98px) {
-			.navbar .logo {
-                height: 30px;
-			}
-		}
 
 		.responsive {
 		  max-width: 100%;
@@ -47,6 +41,10 @@
                 footer .text-right {
                     text-align: center !important;
                 }
+
+                .navbar .logo {
+                    height: 30px;
+			    }
 		    }
             
             .top-container {
@@ -54,10 +52,14 @@
 			    margin-bottom: 1rem;
 		    }
 
+            .carousel-container {
+                margin-top: 6rem;
+                margin-bottom: 3rem;
+            }
+
             .carousel-inner img {
-                max-width: 95%;
-                max-height: 50% !important;
-			    margin: auto;
+                width: 100%;
+                margin: auto;
 		    }
 
             h2 {
@@ -144,18 +146,18 @@
             </nav>
         </header>
 
-        <div class="container top-container">
-            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+        <div class="container carousel-container">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
                 </ol>
-                <div class="carousel-inner">
+                <div class="carousel-inner" data-interval="3000"> 
                 <div class="carousel-item active">
                     <img src="./assets/C00.jpg" class="d-block" alt="...">
                 </div>
