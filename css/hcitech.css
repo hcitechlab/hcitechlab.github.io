@@ -1,0 +1,159 @@
+
+            nav.navbar {
+                font-family: Helvetica;
+                font-size: 18px;
+		    }
+
+            .navbar .logo {
+                height: 50px;
+                width: 300px;
+            }
+
+            .responsive {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+            }
+
+            .nav.navbar-nav li a {
+                color: #fff;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+            @media (max-width:768px) {
+                footer .text-left {
+                    text-align: center !important;
+                }
+
+                footer .text-right {
+                    text-align: center !important;
+                }
+
+                .navbar .logo {
+                    height: 30px;
+                    width: 170px;
+			    }
+		    }
+
+            .top-container {
+			    margin-top: 7rem;
+			    margin-bottom: 1rem;
+		    }
+
+            .carousel-container {
+                margin-top: 2rem;
+                margin-bottom: 3rem;
+            }
+
+            .carousel-indicators li {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                margin: 10px;
+                text-indent: 0;
+                cursor: pointer;
+                border: none;
+                border-radius: 50%;
+                background-color: #004f99;
+                box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+            }
+
+            .carousel-inner{
+                width:75% !important;
+                margin: auto;
+            }
+
+            .carousel-control-prev-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234E4E4E' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+            }
+
+            .carousel-control-next-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234E4E4E' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+            }
+
+            h1 {
+                font-family: 'Rubik', sans-serif;
+                font-size: 33px;
+                font-weight: bold;
+		    }
+
+            h2 {
+                font-family: 'Rubik', sans-serif;
+                font-size: 26px;
+                font-weight: bold;
+		    }
+
+            h3 {
+                font-family: 'Inter', sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+		    }
+
+
+            h4 {
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: normal;
+		    }
+
+            h5 {
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 25px;
+		    }
+
+            h6 {
+                font-family: 'Inter', sans-serif;
+                font-size: 12px;
+                font-weight: normal;
+		    }
+
+            .scroll-box {
+                position: relative;
+            }
+
+            .scroll {
+                max-height: 100%;
+                overflow: auto;
+            }
+
+            div.title {
+                font-weight: bold;
+                font-size: 20px;
+		    	margin-bottom: 5px;
+            }
+
+            div.date {
+                font-size: small;
+                margin-bottom: 5px;
+            }
+
+            div.context {
+                font-family: 'Inter', sans-serif;
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+
+            div.research_item{
+                max-width: 100%;
+    			margin-bottom: 5px;
+            }
+
+            .text-wrap{
+                width: 3rem;
+                font-size: 12px;
+                font-weight: normal;
+            }
+            img {
+                width: 100%;
+            }
+
+            img.img-people{
+              height: 250px;
+              border-radius: 5%;
+            }
