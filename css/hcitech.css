@@ -16,7 +16,11 @@
             }
 
             .nav.navbar-nav li a {
-                color: #fff;
+                color: #FFFFFF;
+            }
+
+            .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+                color: #000080 !important;
             }
 
             a {
@@ -24,7 +28,7 @@
             }
 
 
-            @media (max-width:768px) {
+            @media (max-width:800px) {
                 footer .text-left {
                     text-align: center !important;
                 }
@@ -32,17 +36,12 @@
                 footer .text-right {
                     text-align: center !important;
                 }
-
-                .navbar .logo {
-                    height: 30px;
-                    width: 170px;
-			    }
-		    }
+		        }
 
             .top-container {
-			    margin-top: 7rem;
-			    margin-bottom: 1rem;
-		    }
+    			    margin-top: 7rem;
+    			    margin-bottom: 1rem;
+    		    }
 
             .carousel-container {
                 margin-top: 2rem;
@@ -141,7 +140,7 @@
 
             div.research_item{
                 max-width: 100%;
-    			margin-bottom: 5px;
+    			      margin-bottom: 5px;
             }
 
             .text-wrap{
@@ -150,10 +149,18 @@
                 font-weight: normal;
             }
             img {
-                width: 100%;
+                pointer-events: none;
             }
 
             img.img-people{
-              height: 250px;
-              border-radius: 5%;
+              width: 70%;
+              border-radius: 10%;
+            }
+
+            .vl {
+              border-left: 5px solid #000080;
+              height: 150px;
+              left: 3%;
+              position: relative;
+
             }
