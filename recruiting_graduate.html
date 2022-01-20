@@ -12,108 +12,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-        <style>
-            nav.navbar {
-                font-family: Helvetica;
-                font-size: 18px;
-		    }
-            
-            .navbar .logo {
-                height: 50px;
-                width: 300px;
-            }
-
-            .responsive {
-                max-width: 100%;
-                height: auto;
-                margin-bottom: 10px;
-            }
-
-            .nav.navbar-nav li a {
-                color: #fff;
-            }
-
-            @media (max-width:768px) {
-                footer .text-left {
-                    text-align: center !important;
-                }
-
-                footer .text-right {
-                    text-align: center !important;
-                }
-
-                .navbar .logo {
-                    height: 30px;
-                    width: 170px;
-			    }
-		    }
-
-            h1 {
-			    font-family: Arial, Helvetica, sans-serif;
-			    font-size: 40px;
-                font-weight: bold;
-		    }
-            
-            h2 {
-			    font-family: Arial, Helvetica, sans-serif;
-			    font-size: 28px;
-                font-weight: bold;
-		    }
-
-            h3 {
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 20px;
-                font-weight: bold;
-		    }
-
-
-            h4 {
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 17px;
-                font-weight: normal;
-		    }
-
-            h5 {
-                font-family:Sans-serif	;
-                font-size: 15px;
-                font-weight: normal;
-		    }
-
-            .scroll {
-                max-height: 100px;
-                overflow-y: auto;
-            }
-
-            div.title {
-                font-weight: bold;
-		    	margin-bottom: 5px;
-            }
-
-            div.date {
-                font-style: italic;
-                font-size: small;
-                margin-bottom: 5px;
-            }
-
-            div.context {
-                margin-bottom: 5px;
-            }
-
-            div.research_item{
-                max-width: 100%;
-    			margin-bottom: 5px;
-            }
-
-            .text-wrap{
-                width: 3rem;
-            }
-
-            img {
-                width: 100%;
-            }
-        </style>
-
+        <link rel="stylesheet" href="css/hcitech.css">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-L11CDKTS4E"></script>
         <script>
@@ -126,29 +25,28 @@
     </head>
 
     <body>
-            <nav class="navbar navbar-expand-lg navbar-light px-0">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">
-                        <img alt ="logo" src="assets/main_logo.PNG" class="logo d-none d-sm-block">
-                        <img alt ="logo" src="assets/main_letter.PNG" class="logo d-block d-sm-none">
-                    </a>
+      <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+              <a class="navbar-brand" href="#">
+                  <img alt ="logo" src="assets/main_logo.PNG" class="logo d-none d-sm-block">
+                  <img alt ="logo" src="assets/main_letter.PNG" class="logo d-block d-sm-none">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.html#publications">Publications</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.html#team">Team</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.html#join">Join Us</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="publication.html">Publications</a></li>
+                      <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                      <li class="nav-item"><a class="nav-link" href="course.html">Courses</a></li>
+                      <li class="nav-item"><a class="nav-link" href="join.html">Join Us</a></li>
+                      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                  </ul>
+              </div>
+          </nav>
+      </div>
 
         <!-- Join Us section-->
         <div class="container mb-sm-5">
@@ -157,10 +55,10 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h1 class="card-title">M.S./Ph.D. Open Positions</h1>
-                                <p><h2>HCI Tech Lab Introduction</h2>  
+                                <p><h2>HCI Tech Lab Introduction</h2>
                                     <h5 style="margin-left: 10px">As an interdisciplinary research group in Culture Technology,
                                         we build physical/digital interactive system empowered by novel sensing/haptic technologies.
-                                        In HCI Tech Lab, we aim to explore novel interactive technologies that bring direct benefits 
+                                        In HCI Tech Lab, we aim to explore novel interactive technologies that bring direct benefits
                                         to real world users. Our research process generally includes:</p>
                                         <p><ul style="margin-left: 30px">
                                             <li><h5>Find gaps between interface/device and human</h5></li>
@@ -169,8 +67,8 @@
                                             <li><h5>Deploy the solution with practical applications</h5></li> </h5>
                                         </ul>
                                         <h5 style="margin-left: 10px; padding-bottom: 20px;"> Refer to recent <a href="index.html#publications"><b>papers</b></a> for examples.</p>
-                                        
-                                <p><h2>Potential Projects</h2>  
+
+                                <p><h2>Potential Projects</h2>
                                     <h5 style="margin-left: 10px; padding-bottom: 20px;">You’ll be working on a research project, and closely interacting with me and others. Here are some potential project ideas:</p>
                                         <p><ul style="margin-left: 30px">
                                             <li><h5>Design/build/evaluate novel sensing techniques (capacitive, magnetic, Ultra wideband, radar, LiDAR, Computer Vision, biosignal) for AR/VR interactions. (Related Projects: <a href="index.html#publications">iSoft, Scenariot, TRing, TMotion, TiMMi</a>)</h4></li>
@@ -178,17 +76,17 @@
                                             <li><h5>Augmented humans with bio-physiological sensing with applied machine learning to understand user intention and status. (Related Projects: <a href="index.html#publications">Stress Monitoring using Multimodal Bio-sensing Headset</a>)</h5></li>
                                             <li><h5>Customization & Recommender Toolkit for Sensing/Haptic Interfaces design in AR/VR. (Related Projects: <a href="index.html#publications">TRing, iSoft, HapSense</a> )</h5></li>
                                             <li><h5>Design study (e.g., Elicitation, data capture) on deformable/soft/wearable interfaces. (Related Projects: <a href="index.html#publications">BikeGesture</a> )</h5></li>
-                                            <li><h5>You can also suggest new ideas!</h5></li>                                                                      
+                                            <li><h5>You can also suggest new ideas!</h5></li>
                                         </ul></p>
 
                                 <p><h2> Applications for M.S./Ph.D. Positions </h2>
                                 <h5 style="margin-left: 10px; padding-bottom: 20px;" >
-                                     <p>If you are interested in working with us as a MS/PhD student or postdoc, <b><i><a href="mailto:">please send me an email.</a></i></p></b> 
-                                     State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. 
+                                     <p>If you are interested in working with us as a MS/PhD student or postdoc, <b><i><a href="mailto:">please send me an email.</a></i></p></b>
+                                     State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate.
                                      No need for a separate cover letter or certificates.</p>
                                      <b>Important: please insert “Application PhD” or “Application MS" in the subject line.</b>
 
-                                <p><h2>Requirement</h2>  
+                                <p><h2>Requirement</h2>
                                     <h5 style="margin-left: 10px; padding-bottom: 20px;">
                                             <p><ul style="margin-left: 30px">
                                             <li><h5>We are looking for students who are eager to learn and build physical & digital interactive system. <b>(Looking for students from diverse backgrounds & majors)</b></h5></li>
@@ -196,14 +94,14 @@
                                             <li><h5>We are looking for students with responsibility who can actually realize proposed ideas.</h5></li>
                                             <li><h5>We are looking for students to have prototyping experience or intro-level HCI knowledge. (Optional, but strongly recommended)</h5></li>
                                             </ul>
-                                <p><h2>Ph.D. Student</h2>  
+                                <p><h2>Ph.D. Student</h2>
                                     <h5 style="margin-left: 10px; padding-bottom: 20px;">
                                             <p><ul style="margin-left: 30px">
                                             <li><h5>I prefer accepting Ph.D. student who has valid prior research experiences. Please apply as M.S. if you do not have feasible research experiences.</h5></li>
                                             <li><h5>If you would like to have research experience prior to Ph.D., please work in our lab as an intern or apply as a M.S. student.</h5></li>
                                             </ul>
-                                
-                                <p><h2>M.S. Student</h2>  
+
+                                <p><h2>M.S. Student</h2>
                                     <h5 style="margin-left: 10px; padding-bottom: 20px;">
                                             <p><ul style="margin-left: 30px">
                                             <li><h5>I do not have any preference on research experiences for M.S. students.</b></h5></li>
@@ -232,7 +130,7 @@
                             <img src="./assets/KAIST_CT_Logo_White.png" style="height:50px"></img>
                     </div>
                 </div>
-            </div>    
+            </div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
