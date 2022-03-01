@@ -172,3 +172,14 @@
               position: relative;
 
             }
+
+            p.alumni{
+              color:#000000;font-weight:bold;font-family:sans-serif;font-size:8
+            }
+            span.period{
+              color:#808080;font-weight:lighter;font-family:sans-serif;font-size:8
+            }
+
+            span.type{
+              color:#000000;font-weight:lighter;font-family:sans-serif;font-size:8
+            }
