@@ -129,13 +129,13 @@
 
             div.date {
                 font-size: small;
-                margin-bottom: 5px;
+                margin-bottom: 7px;
             }
 
             div.context {
                 font-family: 'Inter', sans-serif;
                 margin-bottom: 10px;
-                font-size: 14px;
+                font-size: 16px;
             }
 
             div.research_item{
@@ -182,4 +182,12 @@
 
             span.type{
               color:#000000;font-weight:lighter;font-family:sans-serif;font-size:8
+            }
+
+            hr {
+                height: 5px;
+                width:95%;
+                background-color: #122a59; /* Modern Browsers */
+                border: solid 1.5px;
+                border-color: #122a59;
             }
