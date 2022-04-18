@@ -9,6 +9,11 @@
                 width: 300px;
             }
 
+            .navbar .small {
+                height: 50px;
+                width: 250px;
+            }
+
             .responsive {
                 max-width: 100%;
                 height: auto;
