@@ -2,9 +2,11 @@
             nav.navbar {
                 font-family: Helvetica;
                 font-size: 18px;
-		    }
+		        }
 
-            .navbar .logo {
+           .blue { color: #0072FF;}
+           
+           .navbar .logo {
                 height: 50px;
                 width: 300px;
             }
