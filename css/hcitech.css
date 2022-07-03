@@ -5,7 +5,7 @@
 		        }
 
            .blue { color: #0072FF;}
-           
+
            .navbar .logo {
                 height: 50px;
                 width: 300px;
@@ -143,6 +143,12 @@
                 font-family: 'Inter', sans-serif;
                 margin-bottom: 10px;
                 font-size: 16px;
+            }
+
+            div.context_news {
+                font-family: 'Inter', sans-serif;
+                margin-bottom: 10px;
+                font-size: 14px;
             }
 
             div.research_item{
