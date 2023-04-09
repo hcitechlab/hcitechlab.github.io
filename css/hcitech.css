@@ -167,7 +167,7 @@
                 font-weight: normal;
             }
             img {
-                pointer-events: none;
+                pointer-events: auto;
             }
 
             img.img-people{
@@ -208,4 +208,10 @@
                 background-color: #122a59; /* Modern Browsers */
                 border: solid 1.5px;
                 border-color: #122a59;
+            }
+
+            figcaption{
+              margin-top: 5px;
+              text-align: center;
+              margin-bottom: 20px;
             }
