@@ -1,10 +1,9 @@
+            .blue { color: #0072FF;}
 
             nav.navbar {
                 font-family: Helvetica;
-                font-size: 18px;
+                font-size: 17px;
 		        }
-
-           .blue { color: #0072FF;}
 
            .navbar .logo {
                 height: 50px;
@@ -26,8 +25,16 @@
                 color: #FFFFFF;
             }
 
-            .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-                color: #000080 !important;
+            .nav-link {
+                color: rgb(30, 30, 30) !important;
+            }
+
+            .active {
+                color: blue !important;
+            }
+
+            .nav-link:hover {
+                color: blue !important;
             }
 
             a {
