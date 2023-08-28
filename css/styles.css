@@ -912,9 +912,14 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .col-sm {
     flex: 1 0 0%;
+  }
+
+  .news-item{
+    float:left;
+    width: 100%;
   }
 
   .row-cols-sm-auto > * {
@@ -4910,6 +4915,7 @@ textarea.form-control-lg {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
+  margin-bottom:5px;
 }
 .badge:empty {
   display: none;
