@@ -30,11 +30,17 @@
             }
 
             .active {
-                color: blue !important;
+                color: #1260de !important;
+            }
+
+            .subactive {
+                color: #1260de !important;
+                border-top: 3px solid #0046b8;
+
             }
 
             .nav-link:hover {
-                color: blue !important;
+                color: #0046b8 !important;
             }
 
             a {
