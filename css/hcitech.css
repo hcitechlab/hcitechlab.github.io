@@ -171,19 +171,45 @@
             }
 
             div.research_item{
+                border: 1px solid #ccc;
+                border-radius: 5px;
                 max-width: 100%;
+    			margin: 10px;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                /*max-width: 100%;
     			margin-bottom: 5px;
 
                 border-bottom: 2px solid #BFD6FE;
                 margin-bottom: 5px;
                 margin-top: 10px;
-                position: relative;
+                position: relative;*/
+            }
+
+            div.research_item:hover{
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             }
 
             div.research_item_end{
                 max-width: 100%;
     			margin-bottom: 20px;
             }
+
+            div.people_item{
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                max-width: 100%;
+                padding: 5px;
+                margin: 5px;
+                display: flex;
+                align-items: center;
+            }
+
+            div.people_item:hover{
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
 
             .text-wrap{
                 width: 3rem;
@@ -195,7 +221,7 @@
             }
 
             img.img-people{
-              width: 50%;
+              width: 150px;
               border-radius: 5%;
             }
 
