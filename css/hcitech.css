@@ -170,6 +170,16 @@
                 font-size: 13px;
             }
 
+            div.news_item{
+                max-width: 100%;
+                margin-bottom: 5px;
+
+                border-bottom: 2px solid #BFD6FE;
+                margin-bottom: 5px;
+                margin-top: 10px;
+                position: relative;
+            }
+
             div.research_item{
                 border: 1px solid #ccc;
                 border-radius: 5px;
