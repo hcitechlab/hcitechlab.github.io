@@ -220,7 +220,11 @@
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             }
 
-
+            .text-project{
+                width: 7rem;
+                font-size: 12px;
+                font-weight: normal;
+            }
             .text-wrap{
                 width: 3rem;
                 font-size: 12px;
